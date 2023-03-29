@@ -35,7 +35,7 @@ namespace mod6_1302210001
 
         public void PrintAllVideoPlaycount()
         {
-            Console.WriteLine("user :" + this.username);
+            Console.WriteLine("user :" + username);
             foreach (var video in uploadedVideos)
             {
                 Console.WriteLine("Judul video :" + video.getTitle);

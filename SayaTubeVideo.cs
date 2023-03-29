@@ -14,7 +14,7 @@ namespace mod6_1302210001
         private String title;
         private int playCount;
 
-        public SayaTubeVideo(int id, string tite, int playCount)
+        public SayaTubeVideo(string tite)
         {
             this.id = id;
             this.title = tite;
